@@ -32,7 +32,7 @@ const (variavel) = document.querySelector("class ou id ou tag");
    document.querySelectorAll(".produto")
    pega todas as tags class ou id de uma vez   
 
-(variavel.)elemento.addEventListener( evento,função);
+(variavel.)addEventListener( evento,função);
              
  adiciona um evento a uma variavel
    eventos mais usados

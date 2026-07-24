@@ -12,58 +12,8 @@ p {
     display: flex;
     justify-content: space-around;
     background-color: rgb(97, 97, 97);
-    padding: 20px;
-}
-
-.menu {
-    width: 200px;
-    height: 100px;
-    background-color: rgb(97, 97, 97);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.menu:hover {
-    transform: scale(1.1);
-    background-color: rgb(148, 148, 148);
+    padding: 100px;
     border-radius: 10px;
-    transition: 0.5s;
-}
-
-.logo {
-    width: 200px;
-    height: 100px;
-    background-color: rgb(97, 97, 97);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.logo:hover {
-    transform: scale(1.1);
-    background-color: rgb(148, 148, 148);
-    border-radius: 10px;
-    transition: 0.5s;
-}
-
-.modelos {
-    width: 200px;
-    height: 100px;
-    background-color: rgb(97, 97, 97);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.modelos:hover {
-    transform: scale(1.1);
-    background-color: rgb(148, 148, 148);
-    border-radius: 10px;
-    transition: 0.5s;
 }
 
 .menubar {
@@ -93,55 +43,46 @@ p {
     cursor: pointer;
 }
 
-.motos {
-    width: 100px;
-    height: 50px;
-    background-color: rgb(97, 97, 97);
+#logo {
+    position: absolute;
+    width: 450px;
+    height: 200px;
+    top: 10px;
+    right: 10px;
+    left: 460px;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#modelo {
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    top: 50px;
+    right: 10px;
+    left: 1000px;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
 }
 
-.motos:hover {
-    transform: scale(1.1);
-    background-color: rgb(148, 148, 148);
-    border-radius: 20px;
-    transition: 0.5s;
-}
-
-.teste {
-    transition: 0.5s;
-    background-image: url("img/moto teste.PNG");
-}
-
-.xre190 {
-    transition-delay: 5s;
-    background-image: url("img/xre190.PNG");
+#modelo:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
 
-.xre300 {
-    background-image: url("img/xre300.PNG");
-    transform: scale(1.1);
-    transition: 0.5s;
+#menu {
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    top: 50px;
+    left: 40px;
+    right: 900;
+    cursor: pointer;
 }
 
-.cb500x {
-    background-image: url("img/cb500x.PNG");
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-.banner {
-    width: 570px;
-    height: 380px;
-    background-repeat: no-repeat;
-}
-
-.banner:hover {
+#menu:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
