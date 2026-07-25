@@ -86,3 +86,17 @@ p {
     transform: scale(1.1);
     transition: 0.5s;
 }
+
+.caixa {
+    width: 870px;
+    height: 570px;
+    background-image: url(img/teste.PNG);
+    background-size: cover;
+    margin: auto;
+}
+
+.caixa:hover {
+    transform: scale(1.02);
+    border: 3px solid black;
+    transition: 0.3s;
+}
