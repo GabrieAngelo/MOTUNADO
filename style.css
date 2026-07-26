@@ -8,24 +8,23 @@ p {
     color: rgb(255, 255, 255);
 }
 
-.barra {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(97, 97, 97);
-    padding: 100px;
-    border-radius: 10px;
-}
+
 
 .menubar {
     position: fixed;
     top: 0;
-    right: -300px;
-    width: 250px;
+    right: -450px;
+    width: 400px;
     height: 100vh;
     background-color: #333;
     color: white;
     padding: 20px;
     transition: right 0.3s ease;
+
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(3,1f));
+    gap:10px;
+   
 }
 
 .menubar.open {
@@ -43,13 +42,26 @@ p {
     cursor: pointer;
 }
 
-#logo {
-    position: absolute;
-    width: 450px;
-    height: 200px;
-    top: 10px;
-    right: 10px;
-    left: 460px;
+
+#menu {
+     width: 270px;
+    height: 170px;
+    background: lightcoral;
+
+}
+
+#menu:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#logo{
+    
+     width: 420px;
+    height: 170px;
+    background: lightcoral;
+
+    
 }
 
 #logo:hover {
@@ -58,45 +70,29 @@ p {
 }
 
 #modelo {
-    position: absolute;
-    width: 320px;
-    height: 120px;
-    top: 50px;
-    right: 10px;
-    left: 1000px;
-    cursor: pointer;
+    width: 270px;
+    height: 170px;
+    background: lightcoral;
 }
+
 
 #modelo:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
-
-#menu {
-    position: absolute;
-    width: 320px;
-    height: 120px;
-    top: 50px;
-    left: 40px;
-    right: 900;
-    cursor: pointer;
+            
+.barra {
+     background-color: aqua;
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    flex-wrap: wrap 100px;
+    border-radius: 20px;
+    padding: 30px;
 }
+.aba {
+   background-color: blue;
+   width: 100px;
+   height: 100px;
 
-#menu:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-.caixa {
-    width: 870px;
-    height: 570px;
-    background-image: url(img/teste.PNG);
-    background-size: cover;
-    margin: auto;
-}
-
-.caixa:hover {
-    transform: scale(1.02);
-    border: 3px solid black;
-    transition: 0.3s;
 }
