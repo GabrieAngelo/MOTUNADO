@@ -1,98 +1,113 @@
-body {
-    background-color: rgb(43, 43, 43);
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-}
-
-
-
-.menubar {
-    position: fixed;
-    top: 0;
-    right: -450px;
-    width: 400px;
-    height: 100vh;
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    transition: right 0.3s ease;
-
-    display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(3,1f));
-    gap:10px;
-   
-}
-
-.menubar.open {
-    right: 0;
-}
-
-.close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-
-#menu {
-     width: 270px;
-    height: 170px;
-    background: lightcoral;
-
-}
-
-#menu:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-#logo{
+    body {
+        background-color: rgb(43, 43, 43);
+    }
     
-     width: 420px;
-    height: 170px;
-    background: lightcoral;
-
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
     
-}
-
-#logo:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-#modelo {
-    width: 270px;
-    height: 170px;
-    background: lightcoral;
-}
-
-
-#modelo:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-            
-.barra {
-     background-color: aqua;
-    display: flex;
-    justify-content: center;
-    gap: 400px;
-    flex-wrap: wrap 100px;
-    border-radius: 20px;
-    padding: 30px;
-}
-.aba {
-   background-color: blue;
-   width: 100px;
-   height: 100px;
-
-}
+    #menu {
+        width: 270px;
+        height: 170px;
+        background: lightcoral;
+        transition: 0.5s;
+    }
+    
+    #menu:hover {
+        transform: scale(1.1);
+        background: red;
+        transition: 0.5s;
+        border-radius: 20px;
+    }
+    
+    #logo {
+        width: 420px;
+        height: 170px;
+        background: lightcoral;
+        transition: 0.5s;
+    }
+    
+    #logo:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+        background: red;
+        border-radius: 20px;
+    }
+    
+    #modelo {
+        width: 270px;
+        height: 170px;
+        background: lightcoral;
+        transition: 0.5s;
+    }
+    
+    #modelo:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+        background: red;
+        border-radius: 20px;
+    }
+    
+    .barra {
+        background-color: aqua;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 10%;
+        border-radius: 20px;
+        padding: 30px;
+    }
+    
+    .menubar {
+        position: fixed;
+        top: 0;
+        right: -450px;
+        width: 400px;
+        height: 100vh;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        transition: right 0.3s ease;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .aba {
+        background-color: blue;
+        width: 170px;
+        height: 80%;
+    }
+    
+    #aba1.hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+        background: darkblue;
+        border-radius: 20px;
+    }
+    
+    .menubar.open {
+        right: 0;
+    }
+    
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .teste {
+        height: 100px;
+        width: 30%;
+        display: flex;
+        background-color: blueviolet;
+        justify-content: space-evenly;
+        align-items: center;
+    }
