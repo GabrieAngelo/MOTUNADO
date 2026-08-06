@@ -120,9 +120,168 @@
         align-items: center;
     }
     
+    .main2 {
+        background-color: rgb(0, 0, 0);
+        height: 200vh;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .ab1 {
+        width: 85%;
+        height: 45%;
+        background-color: rgb(0, 255, 34);
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .ab2 {
+        width: 85%;
+        height: 45%;
+        background-color: rgb(0, 255, 34);
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .ab3 {
+        width: 85%;
+        height: 45%;
+        background-color: rgb(0, 255, 34);
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .ab4 {
+        width: 85%;
+        height: 45%;
+        background-color: rgb(0, 255, 34);
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .ab5 {
+        width: 85%;
+        height: 45%;
+        background-color: rgb(0, 255, 34);
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .ab6 {
+        width: 85%;
+        height: 45%;
+        background-color: rgb(0, 255, 34);
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .ab7 {
+        width: 85%;
+        height: 45%;
+        background-color: rgb(0, 255, 34);
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .ab8 {
+        width: 85%;
+        height: 45%;
+        background-color: rgb(0, 255, 34);
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .ab9 {
+        width: 85%;
+        height: 45%;
+        background-color: rgb(0, 255, 34);
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .ab0 {
+        width: 85%;
+        height: 45%;
+        background-color: rgb(0, 255, 34);
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .ab1foto {
+        width: 99%;
+        height: 70%;
+        background-color: rgb(245, 245, 245);
+    }
+    
+    .ab2foto {
+        width: 99%;
+        height: 70%;
+        background-color: rgb(245, 245, 245);
+    }
+    
+    .ab3foto {
+        width: 99%;
+        height: 70%;
+        background-color: rgb(245, 245, 245);
+    }
+    
+    .ab4foto {
+        width: 99%;
+        height: 70%;
+        background-color: rgb(245, 245, 245);
+    }
+    
+    .ab5foto {
+        width: 99%;
+        height: 70%;
+        background-color: rgb(245, 245, 245);
+    }
+    
+    .ab6foto {
+        width: 99%;
+        height: 70%;
+        background-color: rgb(245, 245, 245);
+    }
+    
+    .ab7foto {
+        width: 99%;
+        height: 70%;
+        background-color: rgb(245, 245, 245);
+    }
+    
+    .ab8foto {
+        width: 99%;
+        height: 70%;
+        background-color: rgb(245, 245, 245);
+    }
+    
+    .ab9foto {
+        width: 99%;
+        height: 70%;
+        background-color: rgb(245, 245, 245);
+    }
+    
+    .ab0foto {
+        width: 99%;
+        height: 70%;
+        background-color: rgb(245, 245, 245);
+    }
+    
     .mainfoto {
-        width: 80%;
-        height: 90%;
+        width: 65%;
+        height: 75%;
         transition: 0.5s;
         background-image: url("img/teste.PNG");
         background-size: cover;
