@@ -13,20 +13,20 @@ const modelo = document.querySelector("#modelo")
 modelo.addEventListener("click", abrirmenu);
 
 
-const ab1 = document.querySelector(".ab1");
-ab1.addEventListener("mouseenter", ab1on);
+const abord = document.querySelector(".abord");
+abord.addEventListener("mouseenter", abordon);
+abord.addEventListener("mouseleave", abordff);
 
-function ab1on() {
+function abordon() {
 
-    ab1.style.backgroundColor = "#f2f2f2";
-    const ab1foto = document.querySelector(".ab1foto");
-    ab1foto.style.transform = "scale(1.05)";
+    
+    const abord = document.querySelector(".abord");
+    abord.style.border = "2px solid rgb(255, 0, 0)";
 }
-ab1.addEventListener("mouseleave", ab1off);
-function ab1off() {
+function abordff() {
 
-    ab1.style.backgroundColor = "rgb(0, 255, 34)";
-    const ab1foto = document.querySelector(".ab1foto");
-    ab1foto.style.transform = "scale(1.0)";
+   
+    const abord = document.querySelector(".abord");
+    abord.style.border = "2px solid rgb(47, 0, 255)";
 
 }

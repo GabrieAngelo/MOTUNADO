@@ -129,7 +129,7 @@
         align-items: center;
     }
     
-    .ab1 {
+    .ab {
         width: 85%;
         height: 45%;
         background-color: rgb(0, 255, 34);
@@ -138,87 +138,7 @@
         justify-content: center;
         padding: 5px;
         transition: 0.5s;
-    }
     
-    .ab2 {
-        width: 85%;
-        height: 45%;
-        background-color: rgb(0, 255, 34);
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-    }
-    
-    .ab3 {
-        width: 85%;
-        height: 45%;
-        background-color: rgb(0, 255, 34);
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-    }
-    
-    .ab4 {
-        width: 85%;
-        height: 45%;
-        background-color: rgb(0, 255, 34);
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-    }
-    
-    .ab5 {
-        width: 85%;
-        height: 45%;
-        background-color: rgb(0, 255, 34);
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-    }
-    
-    .ab6 {
-        width: 85%;
-        height: 45%;
-        background-color: rgb(0, 255, 34);
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-    }
-    
-    .ab7 {
-        width: 85%;
-        height: 45%;
-        background-color: rgb(0, 255, 34);
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-    }
-    
-    .ab8 {
-        width: 85%;
-        height: 45%;
-        background-color: rgb(0, 255, 34);
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-    }
-    
-    .ab9 {
-        width: 85%;
-        height: 45%;
-        background-color: rgb(0, 255, 34);
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-    }
-    
-    .ab0 {
-        width: 85%;
-        height: 45%;
-        background-color: rgb(0, 255, 34);
-        display: flex;
-        justify-content: center;
-        padding: 5px;
     }
     
     .ab1foto {
@@ -228,28 +148,69 @@
         background-image: url("img/cg.PNG");
         background-size: cover;
         background-position: center;
-    }
-    
-    .ab1on {
+         transition: 0.5s;
+     }
+     
+    .ab1foto:hover {
+        width: 99%;
+        height: 70%;
         background-image: url("img/cg2.PNG");
+        transition: 0.5s;
     }
     
+   
     .ab2foto {
         width: 99%;
         height: 70%;
         background-color: rgb(245, 245, 245);
+        background-image: url("img/xre190.PNG");
+        background-size: cover;
+        background-position: center;
+        transition: 0.5s;
     }
-    
+    .ab2foto:hover {
+        width: 99%;
+        height: 70%;
+        background-image: url("img/xre1902.PNG");
+        background-size: cover;
+        background-position: center;
+        transition: 0.5s;
+    }
+
     .ab3foto {
         width: 99%;
         height: 70%;
         background-color: rgb(245, 245, 245);
+        background-image: url("img/bross.PNG");
+        background-size: cover;
+        background-position: center;
+        transition: 0.5s;
+    }
+    .ab3foto:hover {
+        width: 99%;
+        height: 70%;
+        background-image: url("img/bross2.PNG");
+        background-size: cover;
+        background-position: center;
+        transition: 0.5s;
     }
     
     .ab4foto {
         width: 99%;
         height: 70%;
         background-color: rgb(245, 245, 245);
+        background-image: url("img/300F.PNG");
+        background-size: cover;
+        background-position: center;
+        transition: 0.5s;
+    }
+    .ab4foto:hover {
+        width: 99%;
+        height: 70%;
+        background-image: url("img/300F2.PNG");
+        background-size: cover;
+        background-position: center;
+        transition: 0.5s;
     }
     
     .ab5foto {
@@ -286,6 +247,17 @@
         width: 99%;
         height: 70%;
         background-color: rgb(245, 245, 245);
+    }
+
+    .abord{
+
+      border: 2px solid rgb(47, 0, 255);
+    }
+    .abord:hover {
+        border: 2px solid rgb(255, 0, 0);
+        transition: 0.5s;
+        
+
     }
     
     .mainfoto {
