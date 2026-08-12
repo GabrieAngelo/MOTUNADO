@@ -19,14 +19,14 @@ abord.addEventListener("mouseleave", abordff);
 
 function abordon() {
 
-    
+
     const abord = document.querySelector(".abord");
-    abord.style.border = "2px solid rgb(255, 0, 0)";
+
 }
+
 function abordff() {
 
-   
+
     const abord = document.querySelector(".abord");
-    abord.style.border = "2px solid rgb(47, 0, 255)";
 
 }

@@ -1,277 +1,304 @@
-    body {
-        background-color: rgb(43, 43, 43);
-    }
-    
-    p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-        color: rgb(255, 255, 255);
-    }
-    
-    #menu {
-        width: 200px;
-        height: 100px;
-        background: lightcoral;
-        transition: 0.5s;
-    }
-    
-    #menu:hover {
-        transform: scale(1.1);
-        background: red;
-        transition: 0.5s;
-        border-radius: 20px;
-    }
-    
-    #logo {
-        width: 300px;
-        height: 100px;
-        background: lightcoral;
-        transition: 0.5s;
-    }
-    
-    #logo:hover {
-        transform: scale(1.1);
-        transition: 0.5s;
-        background: red;
-        border-radius: 20px;
-    }
-    
-    #modelo {
-        width: 200px;
-        height: 100px;
-        background: lightcoral;
-        transition: 0.5s;
-    }
-    
-    #modelo:hover {
-        transform: scale(1.1);
-        transition: 0.5s;
-        background: red;
-        border-radius: 20px;
-    }
-    
-    .barra {
-        background-color: aqua;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        border-radius: 20px;
-        padding: 10px;
-    }
-    
-    .menubar {
-        position: fixed;
-        top: 0;
-        right: -450px;
-        width: 400px;
-        height: 100vh;
-        background-color: #333;
-        transition: right 0.3s ease;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .aba {
-        background-color: blue;
-        width: 430px;
-        height: 10%;
-        transition: 0.5s;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-    }
-    
-    .aba:hover {
-        background-color: darkblue;
-        transition: 0.5s;
-    }
-    
-    .honda {
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .menubar.open {
-        right: 0;
-    }
-    
-    .close {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        background-color: transparent;
-        border: none;
-        color: white;
-        font-size: 20px;
-        cursor: pointer;
-    }
-    
-    .close:hover {
-        transform: scale(1.1);
-        transition: 0.5s;
-        background-color: red;
-    }
-    
-    .main {
-        display: flex;
-        background-color: rgb(13, 33, 49);
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .main2 {
-        background-color: rgb(0, 0, 0);
-        height: 200vh;
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        justify-items: center;
-        align-items: center;
-    }
-    
-    .ab {
-        width: 85%;
-        height: 45%;
-        background-color: rgb(0, 255, 34);
-        transition: 0.3s;
-        display: flex;
-        justify-content: center;
-        padding: 5px;
-        transition: 0.5s;
-    
-    }
-    
-    .ab1foto {
-        width: 99%;
-        height: 70%;
-        background-color: rgb(245, 245, 245);
-        background-image: url("img/cg.PNG");
-        background-size: cover;
-        background-position: center;
-         transition: 0.5s;
-     }
-     
-    .ab1foto:hover {
-        width: 99%;
-        height: 70%;
-        background-image: url("img/cg2.PNG");
-        transition: 0.5s;
-    }
-    
-   
-    .ab2foto {
-        width: 99%;
-        height: 70%;
-        background-color: rgb(245, 245, 245);
-        background-image: url("img/xre190.PNG");
-        background-size: cover;
-        background-position: center;
-        transition: 0.5s;
-    }
-    .ab2foto:hover {
-        width: 99%;
-        height: 70%;
-        background-image: url("img/xre1902.PNG");
-        background-size: cover;
-        background-position: center;
-        transition: 0.5s;
-    }
-
-    .ab3foto {
-        width: 99%;
-        height: 70%;
-        background-color: rgb(245, 245, 245);
-        background-image: url("img/bross.PNG");
-        background-size: cover;
-        background-position: center;
-        transition: 0.5s;
-    }
-    .ab3foto:hover {
-        width: 99%;
-        height: 70%;
-        background-image: url("img/bross2.PNG");
-        background-size: cover;
-        background-position: center;
-        transition: 0.5s;
-    }
-    
-    .ab4foto {
-        width: 99%;
-        height: 70%;
-        background-color: rgb(245, 245, 245);
-        background-image: url("img/300F.PNG");
-        background-size: cover;
-        background-position: center;
-        transition: 0.5s;
-    }
-    .ab4foto:hover {
-        width: 99%;
-        height: 70%;
-        background-image: url("img/300F2.PNG");
-        background-size: cover;
-        background-position: center;
-        transition: 0.5s;
-    }
-    
-    .ab5foto {
-        width: 99%;
-        height: 70%;
-        background-color: rgb(245, 245, 245);
-    }
-    
-    .ab6foto {
-        width: 99%;
-        height: 70%;
-        background-color: rgb(245, 245, 245);
-    }
-    
-    .ab7foto {
-        width: 99%;
-        height: 70%;
-        background-color: rgb(245, 245, 245);
-    }
-    
-    .ab8foto {
-        width: 99%;
-        height: 70%;
-        background-color: rgb(245, 245, 245);
-    }
-    
-    .ab9foto {
-        width: 99%;
-        height: 70%;
-        background-color: rgb(245, 245, 245);
-    }
-    
-    .ab0foto {
-        width: 99%;
-        height: 70%;
-        background-color: rgb(245, 245, 245);
-    }
-
-    .abord{
-
-      border: 2px solid rgb(47, 0, 255);
-    }
-    .abord:hover {
-        border: 2px solid rgb(255, 0, 0);
-        transition: 0.5s;
+        body {
+            background-color: rgb(43, 43, 43);
+        }
         
-
-    }
-    
-    .mainfoto {
-        width: 65%;
-        height: 75%;
-        transition: 0.5s;
-        background-image: url("img/teste.PNG");
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .mainfoto:hover {
-        transform: scale(1.03);
-        transition: 0.5s;
-        background-color: rgb(185, 182, 182);
-        border-radius: 20px;
-    }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+        }
+        
+        #menu {
+            width: 200px;
+            height: 100px;
+            background: lightcoral;
+            transition: 0.5s;
+        }
+        
+        #menu:hover {
+            transform: scale(1.1);
+            background: red;
+            transition: 0.5s;
+            border-radius: 20px;
+        }
+        
+        #logo {
+            width: 300px;
+            height: 100px;
+            background: lightcoral;
+            transition: 0.5s;
+        }
+        
+        #logo:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+            background: red;
+            border-radius: 20px;
+        }
+        
+        #modelo {
+            width: 200px;
+            height: 100px;
+            background: lightcoral;
+            transition: 0.5s;
+        }
+        
+        #modelo:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+            background: red;
+            border-radius: 20px;
+        }
+        
+        .barra {
+            background-color: aqua;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        
+        .menubar {
+            position: fixed;
+            top: 0;
+            right: -450px;
+            width: 400px;
+            height: 100vh;
+            background-color: #333;
+            transition: right 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .aba {
+            background-color: blue;
+            width: 430px;
+            height: 10%;
+            transition: 0.5s;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+        }
+        
+        .aba:hover {
+            background-color: darkblue;
+            transition: 0.5s;
+        }
+        
+        .honda {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .menubar.open {
+            right: 0;
+        }
+        
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: transparent;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+            background-color: red;
+        }
+        
+        .main {
+            display: flex;
+            background-color: rgb(13, 33, 49);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .main2 {
+            background-color: rgb(0, 0, 0);
+            height: 200vh;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            justify-items: center;
+            align-items: center;
+        }
+        
+        .ab {
+            width: 85%;
+            height: 45%;
+            background-color: rgb(0, 255, 34);
+            transition: 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 5px;
+            transition: 0.5s;
+        }
+        
+        .textbox {
+            background-color: rgb(255, 5, 5);
+            width: 99%;
+            height: 30%;
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .des {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+        }
+        
+        .ab1foto {
+            width: 99%;
+            height: 70%;
+            background-color: rgb(245, 245, 245);
+            background-image: url("img/cg.PNG");
+            background-size: cover;
+            background-position: center;
+            transition: 1.0s;
+        }
+        
+        .ab1foto:hover {
+            width: 99%;
+            height: 70%;
+            background-image: url("img/cg2.PNG");
+            transition: 1.0s;
+        }
+        
+        .ab2foto {
+            width: 99%;
+            height: 70%;
+            background-color: rgb(245, 245, 245);
+            background-image: url("img/xre190.PNG");
+            background-size: cover;
+            background-position: center;
+            transition: 0.5s;
+        }
+        
+        .ab2foto:hover {
+            width: 99%;
+            height: 70%;
+            background-image: url("img/xre1902.PNG");
+            background-size: cover;
+            background-position: center;
+            transition: 0.5s;
+        }
+        
+        .ab3foto {
+            width: 99%;
+            height: 70%;
+            background-color: rgb(245, 245, 245);
+            background-image: url("img/bross.PNG");
+            background-size: cover;
+            background-position: center;
+            transition: 0.5s;
+        }
+        
+        .ab3foto:hover {
+            width: 99%;
+            height: 70%;
+            background-image: url("img/bross2.PNG");
+            background-size: cover;
+            background-position: center;
+            transition: 0.5s;
+        }
+        
+        .ab4foto {
+            width: 99%;
+            height: 70%;
+            background-color: rgb(245, 245, 245);
+            background-image: url("img/300F2.PNG");
+            background-size: cover;
+            background-position: center;
+            transition: 0.5s;
+        }
+        
+        .ab4foto:hover {
+            width: 99%;
+            height: 70%;
+            background-image: url("img/300F.PNG");
+            background-size: cover;
+            background-position: center;
+            transition: 0.5s;
+        }
+        
+        .ab5foto {
+            width: 99%;
+            height: 70%;
+            background-color: rgb(245, 245, 245);
+            background-image: url("img/sahara.PNG");
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .ab5foto:hover {
+            width: 99%;
+            height: 70%;
+            background-image: url("img/sahara2.PNG");
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .ab6foto {
+            width: 99%;
+            height: 70%;
+            background-color: rgb(245, 245, 245);
+        }
+        
+        .ab7foto {
+            width: 99%;
+            height: 70%;
+            background-color: rgb(245, 245, 245);
+        }
+        
+        .ab8foto {
+            width: 99%;
+            height: 70%;
+            background-color: rgb(245, 245, 245);
+        }
+        
+        .ab9foto {
+            width: 99%;
+            height: 70%;
+            background-color: rgb(245, 245, 245);
+        }
+        
+        .ab0foto {
+            width: 99%;
+            height: 70%;
+            background-color: rgb(245, 245, 245);
+        }
+        
+        .abord {
+            border: 2px solid rgb(30, 255, 0);
+        }
+        
+        .abord:hover {
+            border: 2px solid rgb(255, 0, 0);
+        }
+        
+        .mainfoto {
+            width: 65%;
+            height: 75%;
+            transition: 0.5s;
+            background-image: url("img/teste.PNG");
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .mainfoto:hover {
+            transform: scale(1.03);
+            transition: 0.5s;
+            background-color: rgb(185, 182, 182);
+            border-radius: 20px;
+        }
