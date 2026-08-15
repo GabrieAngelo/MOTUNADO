@@ -150,12 +150,23 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            transition: 0.5s;
         }
         
         .des {
             font-family: Arial, Helvetica, sans-serif;
             font-size: 20px;
             color: rgb(255, 255, 255);
+        }
+        
+        .red {
+            color: red;
+            transition: 0.5s;
+        }
+        
+        .white {
+            background-color: white;
+            transition: 0.5s;
         }
         
         .ab1foto {

@@ -20,13 +20,37 @@ abord.addEventListener("mouseleave", abordff);
 function abordon() {
 
 
-    const abord = document.querySelector(".abord");
+    const textbox = document.querySelectorAll(".textbox");
+    textbox.forEach(function(textbox) {
+        textbox.addEventListener("mouseenter", function() {
+            textbox.classList.add("white");
+        });
+    });
+
+    const des = document.querySelectorAll(".des");
+    des.forEach(function(des) {
+        textbox.addEventListener("mouseenter", function() {
+            des.classList.add("red");
+        });
+    });
 
 }
 
 function abordff() {
 
 
-    const abord = document.querySelector(".abord");
+    const textbox = document.querySelectorAll(".textbox");
+    const des = document.querySelectorAll(".des");
+    des.forEach(function(des) {
+        des.addEventListener("mouseleave", function() {
+            des.classList.remove("red");
+        });
+
+    });
+    textbox.forEach(function(textbox) {
+        textbox.addEventListener("mouseleave", function() {
+            textbox.classList.remove("white");
+        });
+    });
 
 }
