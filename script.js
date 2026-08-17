@@ -8,49 +8,21 @@ function fecharmenu() {
     menu.classList.remove("open");
 
 }
-
 const modelo = document.querySelector("#modelo")
 modelo.addEventListener("click", abrirmenu);
 
 
-const abord = document.querySelector(".abord");
-abord.addEventListener("mouseenter", abordon);
-abord.addEventListener("mouseleave", abordff);
 
-function abordon() {
+const ab = document.querySelector(".ab");
+ab.addEventListener("mouseenter", bordaon);
+ab.addEventListener("mouseleave", abordff);
 
-
-    const textbox = document.querySelectorAll(".textbox");
-    textbox.forEach(function(textbox) {
-        textbox.addEventListener("mouseenter", function() {
-            textbox.classList.add("white");
-        });
+function bordaon() {
+    ab.forEach(function(ab) {
+        const ab = document.querySelector(".ab");
+        ab.classList.add("borda1");
     });
 
-    const des = document.querySelectorAll(".des");
-    des.forEach(function(des) {
-        textbox.addEventListener("mouseenter", function() {
-            des.classList.add("red");
-        });
-    });
 
-}
-
-function abordff() {
-
-
-    const textbox = document.querySelectorAll(".textbox");
-    const des = document.querySelectorAll(".des");
-    des.forEach(function(des) {
-        des.addEventListener("mouseleave", function() {
-            des.classList.remove("red");
-        });
-
-    });
-    textbox.forEach(function(textbox) {
-        textbox.addEventListener("mouseleave", function() {
-            textbox.classList.remove("white");
-        });
-    });
 
 }
