@@ -138,150 +138,94 @@
             flex-direction: column;
             justify-content: center;
             transition: 0.5s;
-            border: 2px solid rgb(0, 255, 34);
+            border: 2px solid rgb(104, 104, 104);
+            border-radius: 5px;
         }
         
         .textbox {
-            background-color: rgb(255, 5, 5);
+            background-color: rgb(104, 104, 104);
             width: 100%;
             height: 30%;
             color: rgb(255, 255, 255);
             font-family: Arial, Helvetica, sans-serif;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            flex-direction: column;
             transition: 0.5s;
         }
         
         .des {
             font-family: Arial, Helvetica, sans-serif;
             font-size: 20px;
-            color: rgb(255, 255, 255);
+            color: rgb(51, 51, 51);
+            margin: 0;
+            padding: 8px;
+            transition: 0.5s;
+        }
+        
+        .valor {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: rgb(51, 51, 51);
+            margin: 0;
+            padding: 8px;
+            transition: 0.5s;
+        }
+        
+        .abfoto {
+            width: 100%;
+            height: 70%;
+            background-color: rgb(255, 255, 255);
+            background-size: cover;
+            background-position: center;
+            transition: 1.0s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         .ab1foto {
-            width: 100%;
-            height: 70%;
-            background-color: rgb(245, 245, 245);
+            width: 80%;
+            height: 80%;
+            background-color: rgb(255, 255, 255);
+            background-size: cover;
+            background-position: center;
+            transition: 0.2s;
+        }
+        
+        .ab1on {
+            transform: scale(1.1);
+        }
+        
+        .cg {
             background-image: url("img/cg.PNG");
-            background-size: cover;
-            background-position: center;
-            transition: 1.0s;
         }
         
-        .ab1foto:hover {
-            width: 100%;
-            height: 70%;
-            background-image: url("img/cg2.PNG");
-            transition: 1.0s;
-        }
-        
-        .ab2foto {
-            width: 99%;
-            height: 70%;
-            background-color: rgb(245, 245, 245);
+        .xre190 {
             background-image: url("img/xre190.PNG");
-            background-size: cover;
-            background-position: center;
-            transition: 0.5s;
         }
         
-        .ab2foto:hover {
-            width: 99%;
-            height: 70%;
-            background-image: url("img/xre1902.PNG");
-            background-size: cover;
-            background-position: center;
-            transition: 0.5s;
-        }
-        
-        .ab3foto {
-            width: 99%;
-            height: 70%;
-            background-color: rgb(245, 245, 245);
+        .bross {
             background-image: url("img/bross.PNG");
-            background-size: cover;
-            background-position: center;
-            transition: 0.5s;
         }
         
-        .ab3foto:hover {
-            width: 99%;
-            height: 70%;
-            background-image: url("img/bross2.PNG");
-            background-size: cover;
-            background-position: center;
-            transition: 0.5s;
+        .cb300f {
+            background-image: url("img/300f2.PNG");
         }
         
-        .ab4foto {
-            width: 99%;
-            height: 70%;
-            background-color: rgb(245, 245, 245);
-            background-image: url("img/300F2.PNG");
-            background-size: cover;
-            background-position: center;
-            transition: 0.5s;
-        }
-        
-        .ab4foto:hover {
-            width: 99%;
-            height: 70%;
-            background-image: url("img/300F.PNG");
-            background-size: cover;
-            background-position: center;
-            transition: 0.5s;
-        }
-        
-        .ab5foto {
-            width: 99%;
-            height: 70%;
-            background-color: rgb(245, 245, 245);
+        .sahara {
             background-image: url("img/sahara.PNG");
-            background-size: cover;
-            background-position: center;
-        }
-        
-        .ab5foto:hover {
-            width: 99%;
-            height: 70%;
-            background-image: url("img/sahara2.PNG");
-            background-size: cover;
-            background-position: center;
-        }
-        
-        .ab6foto {
-            width: 99%;
-            height: 70%;
-            background-color: rgb(245, 245, 245);
-        }
-        
-        .ab7foto {
-            width: 99%;
-            height: 70%;
-            background-color: rgb(245, 245, 245);
-        }
-        
-        .ab8foto {
-            width: 99%;
-            height: 70%;
-            background-color: rgb(245, 245, 245);
-        }
-        
-        .ab9foto {
-            width: 99%;
-            height: 70%;
-            background-color: rgb(245, 245, 245);
-        }
-        
-        .ab0foto {
-            width: 99%;
-            height: 70%;
-            background-color: rgb(245, 245, 245);
         }
         
         .borda1 {
             border: 2px solid rgb(255, 0, 0);
+        }
+        
+        .vermelho {
+            background-color: rgb(255, 0, 0);
+        }
+        
+        .textobranco {
+            color: rgb(255, 255, 255);
         }
         
         .mainfoto {
