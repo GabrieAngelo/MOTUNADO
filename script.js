@@ -13,16 +13,19 @@ modelo.addEventListener("click", abrirmenu);
 
 
 
-const ab = document.querySelector(".ab");
-ab.addEventListener("mouseenter", bordaon);
-ab.addEventListener("mouseleave", abordff);
 
-function bordaon() {
-    ab.forEach(function(ab) {
-        const ab = document.querySelector(".ab");
+
+
+const ab = document.querySelectorAll(".ab");
+
+ab.forEach(function(ab) {
+    ab.addEventListener("mouseenter", function() {
         ab.classList.add("borda1");
     });
+});
 
-
-
-}
+ab.forEach(function(ab) {
+    ab.addEventListener("mouseleave", function() {
+        ab.classList.remove("borda1");
+    });
+});
