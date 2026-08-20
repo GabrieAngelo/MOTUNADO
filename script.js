@@ -1,11 +1,13 @@
 function abrirmenu() {
     const menu = document.getElementById("menubar");
     menu.classList.toggle("open");
+    document.body.style.overflow = 'hidden';
 }
 
 function fecharmenu() {
     const menu = document.getElementById("menubar");
     menu.classList.remove("open");
+    document.body.style.overflow = '';
 
 }
 const modelo = document.querySelector("#modelo")
@@ -14,15 +16,7 @@ modelo.addEventListener("click", abrirmenu);
 
 
 
-const menubar = document.querySelector('.menubar');
 
-menubar.addEventListener('mouseenter', () => {
-    document.body.style.overflow = 'hidden';
-});
-
-menubar.addEventListener('mouseleave', () => {
-    document.body.style.overflow = '';
-});
 
 
 
