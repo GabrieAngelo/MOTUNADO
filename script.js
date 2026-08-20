@@ -14,9 +14,19 @@ modelo.addEventListener("click", abrirmenu);
 
 
 
+const menubar = document.querySelector('.menubar');
+
+menubar.addEventListener('mouseenter', () => {
+    document.body.style.overflow = 'hidden';
+});
+
+menubar.addEventListener('mouseleave', () => {
+    document.body.style.overflow = '';
+});
+
+
 
 const ab = document.querySelectorAll(".ab");
-
 ab.forEach(function(ab) {
 
     const ab1foto = ab.querySelector(".ab1foto");
