@@ -202,6 +202,72 @@ h1 {
     width: 100%;
 }
 
+.main3 {
+    background-color: rgb(58, 250, 0);
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main3_1{
+     width: 55% ;
+     height: 80%;
+     background-color: aqua;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+
+    #main3_1_foto{
+        width:90%;
+        height: 90%;
+        background-color: black;
+    }
+
+.main3_2{
+     width: 35% ;
+     height: 80%;
+     background-color: chocolate;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     gap:50px;
+     
+    }
+
+    #carrosel_royal{
+     width: 100%;
+     height: 300px;
+     background-color: #000000; 
+     overflow: hidden;
+    }
+      #carousel_royal_track {
+      display: flex;
+      gap: 20px;
+      transition: transform 0.4s ease;
+     }
+      .card {
+  min-width: 180px;
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #333;
+  color: white;
+  border-radius: 10px;
+}
+
+      #main3_2_harley{
+     width: 100%;
+     height: 300px;
+     background-color: #000000; 
+    }
+    
+    
+
 .ab {
     width: 95%;
     height: 55%;
