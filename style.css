@@ -252,14 +252,14 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius
+    justify-content: center;
 }
 
 #card0_foto {
-    background-color: #e100ff;
-    width: 98%;
     height: 70%;
-    border: 2% solid black
+    width: 98%;
+    border: 2px solid #ffffff;
+    background-color: aquamarine;
 }
 
 #card0_textbox {
@@ -272,21 +272,18 @@ h1 {
     min-width: 158px;
     height: 150px;
     background: #ff0000;
-    color: white;
 }
 
 .card2 {
     min-width: 158px;
     height: 150px;
     background: #00ff62;
-    color: white;
 }
 
 .card3 {
     min-width: 158px;
     height: 150px;
     background: #d9ff00;
-    color: white;
 }
 
 .butao {
