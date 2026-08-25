@@ -224,8 +224,8 @@ h1 {
 }
 
 .main3_2 {
-    width: 35%;
-    height: 80%;
+    width: 38%;
+    height: 85%;
     background-color: chocolate;
     display: flex;
     align-items: center;
@@ -237,53 +237,41 @@ h1 {
     width: 100%;
     height: 300px;
     background-color: #000000;
+    overflow: hidden;
 }
 
 #carrosel_royal_track {
     display: flex;
+    width: max-content;
     transition: transform 0.4s ease;
+    gap: 10px;
 }
 
-.card0 {
-    min-width: 158px;
-    height: 200px;
-    background: #333;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#card0_foto {
+.card_foto {
     height: 70%;
-    width: 98%;
-    border: 2px solid #ffffff;
-    background-color: aquamarine;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
 }
 
-#card0_textbox {
+.card_textbox {
     width: 100%;
     height: 30%;
-    background-color: #00ff62;
+    background-color: rgb(104, 104, 104);
+    transition: 0.5s;
 }
 
-.card1 {
+.card {
+    width: 158px;
     min-width: 158px;
-    height: 150px;
-    background: #ff0000;
-}
-
-.card2 {
-    min-width: 158px;
-    height: 150px;
-    background: #00ff62;
-}
-
-.card3 {
-    min-width: 158px;
-    height: 150px;
-    background: #d9ff00;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
+    border-radius: 5px;
+    flex-shrink: 0;
+    border: 2px solid rgb(104, 104, 104);
 }
 
 .butao {

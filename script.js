@@ -38,7 +38,6 @@ ab.forEach(function(ab) {
 
 
     });
-
     ab.addEventListener("mouseleave", function() {
         ab.classList.remove("borda1");
         ab1foto.classList.remove("ab1on");
@@ -56,15 +55,52 @@ ab.forEach(function(ab) {
 const track = document.querySelector("#carrosel_royal_track");
 const next = document.querySelector("#next");
 const prev = document.querySelector("#prev");
-
 let position = 0;
 
+function atualizarCarrosel() {
+    const limite = track.parentElement.clientWidth - track.scrollWidth;
+
+    if (position < limite) {
+        position = limite;
+    }
+    if (position > 0) {
+        position = 0;
+    }
+
+    track.style.transform = `translateX(${position}px)`
+}
+
 next.addEventListener("click", () => {
-    position -= 158;
-    track.style.transform = `translateX(${position}px)`;
+    position += 510;
+    atualizarCarrosel();
+});
+prev.addEventListener("click", () => {
+    position -= 510;
+    atualizarCarrosel();
 });
 
-prev.addEventListener("click", () => {
-    position += 158;
-    track.style.transform = `translateX(${position}px)`;
+
+
+const card = document.querySelectorAll(".card")
+card.forEach(function(card) {
+
+    const card_foto = card.querySelector(".card_foto")
+    const card_textbox = card.querySelector(".card_textbox")
+
+    card.addEventListener("mouseenter", function() {
+        card.classList.add("borda1");
+        card_textbox.classList.add("vermelho")
+
+
+    });
+    card.addEventListener("mouseleave", function() {
+        card.classList.remove("borda1");
+        card_textbox.classList.remove("vermelho")
+
+
+
+    });
+
+
+
 });
