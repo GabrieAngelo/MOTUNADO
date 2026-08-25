@@ -251,7 +251,11 @@ h1 {
     height: 70%;
     width: 100%;
     background-color: rgb(255, 255, 255);
+    background-size: cover;
     transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card_textbox {

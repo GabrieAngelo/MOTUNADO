@@ -71,16 +71,16 @@ function atualizarCarrosel() {
 }
 
 next.addEventListener("click", () => {
-    position += 510;
+    position += 516;
     atualizarCarrosel();
 });
 prev.addEventListener("click", () => {
-    position -= 510;
+    position -= 516;
     atualizarCarrosel();
 });
 
 
-
+main3_1_foto = document.querySelector("#main3_1_foto")
 const card = document.querySelectorAll(".card")
 card.forEach(function(card) {
 
@@ -90,6 +90,9 @@ card.forEach(function(card) {
     card.addEventListener("mouseenter", function() {
         card.classList.add("borda1");
         card_textbox.classList.add("vermelho")
+
+
+
 
 
     });
