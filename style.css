@@ -226,18 +226,27 @@ h1 {
 .main3_2 {
     width: 38%;
     height: 85%;
-    background-color: chocolate;
+    background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 50px;
 }
 
+#main3_2_head {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
 #carrosel_royal {
     width: 100%;
-    height: 300px;
+    height: 250px;
     background-color: #000000;
     overflow: hidden;
+    background-color: chartreuse;
+    align-items: center;
+    display: flex;
 }
 
 #carrosel_royal_track {
@@ -284,13 +293,13 @@ h1 {
 
 #prev {
     position: absolute;
-    top: 220px;
-    left: 400px;
+    left: 440px;
+    top: 100px;
 }
 
 #next {
     position: absolute;
-    top: 200px;
+    top: 100px;
 }
 
 #main3_2_harley {
@@ -363,6 +372,18 @@ h1 {
 
 .ab1on {
     transform: scale(1.2);
+}
+
+.hunter {
+    background-image: url("img/hunter.png");
+}
+
+.meteor {
+    background-image: url("img/meteor.png");
+}
+
+.classic {
+    background-image: url("img/classic.png");
 }
 
 .cg {

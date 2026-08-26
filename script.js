@@ -95,10 +95,12 @@ card.forEach(function(card) {
 
 
 
+
     });
     card.addEventListener("mouseleave", function() {
         card.classList.remove("borda1");
         card_textbox.classList.remove("vermelho")
+
 
 
 
